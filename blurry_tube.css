@@ -157,7 +157,7 @@ ytd-thumbnail-overlay-resume-playback-renderer {
 ytd-two-column-browse-results-renderer {}
 
 
-/*thumbnail time duration*/
+/*thumbnail time duration box*/
 
 #overlays>ytd-thumbnail-overlay-time-status-renderer {
     background-color: #78787857;
@@ -171,14 +171,14 @@ ytd-two-column-browse-results-renderer {}
     font-weight: 400;
 }
 
-ytd-compact-video-renderer {}
+#playlist #overlays>ytd-thumbnail-overlay-time-status-renderer {
+    transform: scale(0.9);
+    margin-right: 0px;
+    margin-bottom: 1px;
+}
 
 ytd-thumbnail {
     border-radius: 35px !important;
-}
-
-ytd-watch-flexy {
-    background-color: red !important;
 }
 
 ytd-item-section-renderer {
@@ -203,10 +203,6 @@ yt-chip-cloud-chip-renderer {
 
 ytd-shorts {
     margin-top: 60px;
-}
-
-button-container {
-    background-color: red !important;
 }
 
 #actions *,
