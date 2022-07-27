@@ -8,10 +8,56 @@
 ==/UserStyle== */
 
 
+/*Dropdown Menu Blur*/
+
+body>ytd-app>ytd-popup-container>tp-yt-iron-dropdown {
+    backdrop-filter: blur(20px) !important;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+#contentWrapper {
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+#contentWrapper>ytd-menu-popup-renderer {
+    background-color: transparent;
+}
+
+#contentWrapper>ytd-menu-popup-renderer #items {
+    background-color: #6e6e6e24;
+    border-radius: 20px;
+}
+
+
+/*Home Screen Thumbnail bg-overlay Rounded and scale*/
+
+ytd-thumbnail::before,
+ytd-rich-section-renderer #thumbnail,
+ytd-rich-section-renderer #dismissible>ytd-thumbnail::before {
+    border-radius: 15px !important;
+}
+
+ytd-thumbnail,
+#contents>ytd-rich-item-renderer {
+    transition: all .2s
+}
+
+ytd-thumbnail:hover {
+    transform: scale(1.03)
+}
+
+
 /*Rounded on video hover buttons*/
+
+.ytd-video-preview {
+    backdrop-filter: blur(10px);
+}
 
 #video-preview-container {
     border-radius: 15px !important;
+    background-color: #00000082 !important;
 }
 
 #buttons>ytd-toggle-button-renderer {
@@ -331,11 +377,6 @@ ytd-video-primary-info-renderer ytd-menu-renderer {
         padding-top: 10px;
         width: 100% !important;
     }
-}
-
-#menu>ytd-menu-renderer {
-    flex-direction: row !important;
-    width: 100%;
 }
 
 
