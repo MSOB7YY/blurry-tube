@@ -8,6 +8,55 @@
 ==/UserStyle== */
 
 
+/*Auto Generated moments*/
+
+#expandable-metadata>ytd-expandable-metadata-renderer {
+    border-radius: 20px;
+    background-color: rgba(137, 137, 137, .09);
+}
+
+#scroll-container {
+    padding-bottom: 20px;
+    padding-top: 3px;
+}
+
+#header {
+    border-radius: 20px;
+    background-color: rgba(237, 237, 237, .05);
+}
+
+#items>ytd-macro-markers-list-item-renderer {
+    transition: all .05s;
+    border-radius: 10px;
+    background-color: rgba(137, 137, 137, .09);
+}
+
+#items>ytd-macro-markers-list-item-renderer:hover {
+    transform: scale(1.03)
+}
+
+#items>ytd-macro-markers-list-item-renderer #img {
+    border-radius: 7px 7px 3px 3px;
+    background-color: rgba(237, 237, 237, .05);
+}
+
+#items>ytd-macro-markers-list-item-renderer #time {
+    border-radius: 7px;
+    background-color: rgba(114, 114, 114, .23);
+    padding: 1px 6px
+}
+
+#items>ytd-macro-markers-list-item-renderer #thumbnail {
+    transform: scale(0.88);
+    border-radius: 20px;
+}
+
+#expandable-metadata>ytd-expandable-metadata-renderer img {
+    border-radius: 6px;
+    background-color: rgba(237, 237, 237, .05);
+}
+
+
 /*Dropdown Menu Blur*/
 
 body>ytd-app>ytd-popup-container>tp-yt-iron-dropdown {
@@ -2496,6 +2545,7 @@ ytd-watch-flexy[theater] #player-theater-container.ytd-watch-flexy, #primary, #s
     #scrollable>yt-formatted-string {
         color: #ccc !important;
     }
+    /*Search Bar*/
     
     #search-input {
         margin: 3px 0px;
