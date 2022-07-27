@@ -69,3 +69,9 @@ A Theme for Youtube that focuses on nice look with responsive design. original b
   * Home Screen Thumbnail bg-overlay Roundness and Scale
   * Duration Box in Playlist is a bit smaller now
 </details>
+
+<details><summary>v6:</summary>
+   
+  * Applied Style to Auto Generated moments Section
+  * Small fixes and addings
+</details>
