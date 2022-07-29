@@ -75,3 +75,13 @@ A Theme for Youtube that focuses on nice look with responsive design. original b
   * Applied Style to Auto Generated moments Section
   * Small fixes and addings
 </details>
+
+<details><summary>v7:</summary>
+   
+  * End Cards now got a nice look
+  * Save to playlist card got the same
+  * next button hover too got it
+  * Some Scrollbar fixes
+  * video player got blurry bg now yeey
+  
+</details>
