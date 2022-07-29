@@ -2710,5 +2710,5 @@ ytd-backstage-post-thread-renderer[enable-borders-on-community] {
 a[href="https://aboutme.google.com/#profile_photo"] span,
 button[data-upload-button-id="add-more-videos-bottom"] span,
 ytd-multi-page-menu-renderer[menu-style="multi-page-menu-style-type-conversations"] #header #text {
-    color: #cecece !important;
+    color: #cecece !important
 }
