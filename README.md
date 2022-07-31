@@ -20,7 +20,7 @@ A Theme for Youtube that focuses on nice look with responsive design. original b
 
 # Changelog
 
-<details open=""><summary>v1:</summary>
+<details open=""><summary>v1.0.0:</summary>
 
 *   hidden overlay on hovering on playlist
 
