@@ -7,6 +7,37 @@
 @license      GPL-3.0 license
 ==/UserStyle== */
 
+ytd-thumbnail-overlay-toggle-button-renderer {
+    background-color: rgba(190, 190, 190, .21);
+    border-radius: 8px;
+}
+
+
+/* #overlays > ytd-thumbnail-overlay-bottom-panel-renderer {backdrop-filter: blur(8px); background-color:#dadada21 !important;} */
+
+
+/* End Screen duration box small */
+
+.ytp-videowall-still-info-duration {
+    background-color: rgba(0, 0, 0, .83);
+    border-radius: 6px;
+    margin: 3px;
+    padding: 3px;
+    transform: scale(1.25)
+}
+
+
+/* Blur to Player and notification */
+
+#player #container,
+ytd-masthead #container {
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+/*Save to Playlist Popup*/
+
 body>ytd-app>ytd-popup-container>tp-yt-paper-dialog #header {
     background-color: #30303000 !important;
 }
@@ -43,6 +74,19 @@ tp-yt-paper-dialog {
 
 input:-moz-placeholder {
     color: #d8d8d8 !important;
+}
+
+#movie_player {
+    border-radius: 20px !important;
+}
+
+#player {
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 07);
+    border-radius: 20px !important;
+}
+
+#movie_player {
+    backdrop-filter: blur(20px);
 }
 
 #movie_player>div.html5-endscreen.ytp-player-content.videowall-endscreen>div>a {
@@ -271,7 +315,7 @@ ytd-two-column-browse-results-renderer {}
 /*thumbnail time duration box*/
 
 #overlays>ytd-thumbnail-overlay-time-status-renderer {
-    background-color: #78787857;
+    background-color: #78787830;
     border-radius: 6px;
     backdrop-filter: blur(3px) !important;
     margin: 3px;
@@ -300,8 +344,21 @@ ytd-thumbnail-overlay-bottom-panel-renderer {
     border-radius: 1px 1px 7px 7px;
 }
 
-#hover-overlays {
-    opacity: 0
+ytd-thumbnail-overlay-hover-text-renderer {
+    height: 30%;
+    width: 30%;
+    display: none;
+}
+
+ytd-thumbnail-overlay-hover-text-renderer span {}
+
+ytd-thumbnail-overlay-hover-text-renderer yt-icon {}
+
+#tooltip {
+    border-radius: 10px !important;
+    background-color: rgba(159, 159, 159, .05) !important;
+    backdrop-filter: blur(28px);
+    margin: 0px;
 }
 
 .yt-chip-cloud-renderer {
@@ -603,7 +660,7 @@ ytd-playlist-panel-renderer[id="playlist"] .header {
 
 /* Description */
 
-#primary-inner>div.watch-active-metadata.style-scope.ytd-watch-flexy #meta {
+div.watch-active-metadata.style-scope.ytd-watch-flexy #meta {
     border-color: #b3b3b300 !important;
     border-style: solid !important;
     border-width: 1px !important;
@@ -617,7 +674,7 @@ ytd-playlist-panel-renderer[id="playlist"] .header {
     margin-top: -0.2px;
 }
 
-#primary-inner>div.watch-active-metadata.style-scope.ytd-watch-flexy #meta:hover {
+div.watch-active-metadata.style-scope.ytd-watch-flexy #meta:hover {
     box-shadow: 0px 0px 1px #000;
     margin-left: 2px;
     margin-top: 0px;
@@ -2710,5 +2767,5 @@ ytd-backstage-post-thread-renderer[enable-borders-on-community] {
 a[href="https://aboutme.google.com/#profile_photo"] span,
 button[data-upload-button-id="add-more-videos-bottom"] span,
 ytd-multi-page-menu-renderer[menu-style="multi-page-menu-style-type-conversations"] #header #text {
-    color: #cecece !important
+    color: #cecece !important;
 }
