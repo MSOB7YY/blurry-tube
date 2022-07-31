@@ -361,14 +361,6 @@ ytd-thumbnail-overlay-hover-text-renderer yt-icon {}
     margin: 0px;
 }
 
-.yt-chip-cloud-renderer {
-    border-radius: 35px;
-}
-
-yt-chip-cloud-chip-renderer {
-    color: black
-}
-
 ytd-shorts {
     margin-top: 60px;
 }
@@ -439,7 +431,7 @@ ytd-video-primary-info-renderer ytd-menu-renderer {
 }
 
 #chips>yt-chip-cloud-chip-renderer.style-scope.yt-chip-cloud-renderer.iron-selected {
-    background-color: #000;
+    background-color: #fff3;
 }
 
 #chips>yt-chip-cloud-chip-renderer.style-scope.yt-chip-cloud-renderer {
@@ -447,20 +439,41 @@ ytd-video-primary-info-renderer ytd-menu-renderer {
     background-color: #7d7d7d14;
 }
 
-#right-arrow-button>ytd-button-renderer {
+#right-arrow-button>ytd-button-renderer,
+#left-arrow-button>ytd-button-renderer {
     backdrop-filter: blur(10px);
     background-color: #00000008;
     z-index: -1 !important;
     position: relative;
 }
 
-#right-arrow-button {
+#right-arrow-button,
+#left-arrow-button {
     backdrop-filter: blur(10px) !important;
     background-color: #0000 !important;
 }
 
-.yt-chip-cloud-renderer #right-arrow-button {
-    border-radius: 5px;
+.yt-chip-cloud-renderer #right-arrow-button,
+.yt-chip-cloud-renderer #left-arrow-button {
+    border-radius: 3px;
+}
+
+.yt-chip-cloud-renderer {
+    border-radius: 35px;
+}
+
+yt-chip-cloud-chip-renderer {
+    color: black
+}
+
+#scroll-container {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+yt-chip-cloud-renderer #left-arrow.yt-chip-cloud-renderer:after,
+yt-chip-cloud-renderer #right-arrow.yt-chip-cloud-renderer:before {
+    display: none;
 }
 
 
@@ -1422,9 +1435,12 @@ paper-ripple[checked] {
 #right-arrow #button,
 #left-arrow #button svg,
 #right-arrow #button svg {
-    background-color: #212121 !important;
+    background-color: #dfdfdf08 !important;
     border-radius: 50% !important;
-    filter: contrast(300%) brightness(550%);
+}
+
+#left-arrow * {
+    background-color: #dfdfdf08 !important:
 }
 
 #nav,
