@@ -94,3 +94,9 @@ A Theme for Youtube that focuses on nice look with responsive design. original b
   * Small Fixes
   
 </details>
+
+<details><summary>v1.8.8:</summary>
+   
+  * Fixed Chips Finally
+  
+</details>
