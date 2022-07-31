@@ -28,7 +28,7 @@ A Theme for Youtube that focuses on nice look with responsive design. original b
 
 [![image](https://user-images.githubusercontent.com/85245079/181034274-472ee6a6-98cd-46fb-950d-d937db093c2d.png)](https://user-images.githubusercontent.com/85245079/181034274-472ee6a6-98cd-46fb-950d-d937db093c2d.png)
 
-</details><details><summary>v2:</summary>
+</details><details><summary>v1.2.0:</summary>
 
 *   Applied theme to Filter Chips
 
@@ -39,7 +39,7 @@ A Theme for Youtube that focuses on nice look with responsive design. original b
 
 </details>
 
-<details><summary>v3:</summary>
+<details><summary>v1.3.0:</summary>
 
 *   BLURRINESS behind video title
 
@@ -51,7 +51,7 @@ A Theme for Youtube that focuses on nice look with responsive design. original b
 
 </details>
 
-<details><summary>v4:</summary>
+<details><summary>v1.4.0:</summary>
 
 *   Blurry Duration Box on Video Thumbnail
 
@@ -63,25 +63,34 @@ A Theme for Youtube that focuses on nice look with responsive design. original b
 
 </details>
 
-<details><summary>v5:</summary>
+<details><summary>v1.5.0:</summary>
    
   * Blur to Dropdown Menus
   * Home Screen Thumbnail bg-overlay Roundness and Scale
   * Duration Box in Playlist is a bit smaller now
 </details>
 
-<details><summary>v6:</summary>
+<details><summary>v1.6.0:</summary>
    
   * Applied Style to Auto Generated moments Section
   * Small fixes and addings
 </details>
 
-<details><summary>v7:</summary>
+<details><summary>v1.7.0:</summary>
    
   * End Cards now got a nice look
   * Save to playlist card got the same
   * next button hover too got it
   * Some Scrollbar fixes
   * video player got blurry bg now yeey
+  
+</details>
+
+<details><summary>v1.8.2:</summary>
+   
+  * Blur For Notification Shade
+  * Fixed (Watch-later & Add to Queue) Overlay and applied style to them
+  * End Screen duration box got a nicer look
+  * Small Fixes
   
 </details>
