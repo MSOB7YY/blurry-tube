@@ -100,3 +100,11 @@ A Theme for Youtube that focuses on nice look with responsive design. original b
   * Fixed Chips Finally
   
 </details>
+
+<details><summary>v1.9.0:</summary>
+   
+  * Account Menu Blurry
+  * Chapters Panel too
+  * Fixied Playlist in Recommentaions
+  
+</details>
