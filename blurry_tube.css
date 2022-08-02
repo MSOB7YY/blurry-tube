@@ -7,6 +7,74 @@
 @license      GPL-3.0 license
 ==/UserStyle== */
 
+
+/* Fixing Playlist in Recommentaions */
+
+ytd-thumbnail-overlay-side-panel-renderer {
+    width: 30% !important;
+    background-color: rgba(255, 255, 255, .09);
+    backdrop-filter: blur(10px);
+}
+
+ytd-playlist-thumbnail {
+    padding-left: 0px !important;
+}
+
+
+/* Chapters Panel */
+
+#panels>ytd-engagement-panel-section-list-renderer {
+    border-radius: 20px !important;
+}
+
+#header {
+    background-color: #cdcdcd00 !important;
+    backdrop-filter: blur(10px);
+}
+
+#panels #content {
+    border-radius: 0 0 20px 20px !important;
+    background-color: #fff0 !important;
+    backdrop-filter: blur(10px);
+}
+
+#contents>ytd-macro-markers-list-item-renderer:hover {
+    border-radius: 8px !important;
+    background-color: #ffffff08 !important;
+}
+
+#panels #img {
+    border-radius: 8px !important;
+}
+
+
+/* Account Menu */
+
+ytd-popup-container>tp-yt-iron-dropdown {
+    background-color: #f000 !important;
+}
+
+#contentWrapper>ytd-multi-page-menu-renderer {
+    background-color: transparent !important;
+}
+
+tp-yt-iron-dropdown #header {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+#header>ytd-active-account-header-renderer {
+    background-color: transparent !important;
+}
+
+#submenu {
+    background-color: transparent !important;
+}
+
+#submenu>ytd-multi-page-menu-renderer,
+#footer>yt-multi-page-menu-section-renderer {
+    background-color: transparent !important;
+}
+
 ytd-thumbnail-overlay-toggle-button-renderer {
     background-color: rgba(190, 190, 190, .21);
     border-radius: 8px;
@@ -316,6 +384,7 @@ ytd-two-column-browse-results-renderer {}
 
 #overlays>ytd-thumbnail-overlay-time-status-renderer {
     background-color: #78787830;
+    color: white;
     border-radius: 6px;
     backdrop-filter: blur(3px) !important;
     margin: 3px;
@@ -2050,17 +2119,8 @@ ytd-playlist-sidebar-renderer #items {
     padding-right: 10px !important;
 }
 
-ytd-playlist-thumbnail {
-    padding-left: 20px !important;
-}
-
 #dismissable #contents .ytd-thumbnail-overlay-time-status-renderer {
     padding: 5px;
-}
-
-ytd-thumbnail-overlay-side-panel-renderer {
-    /*	margin-right: 10%;*/
-    width: 100% !important;
 }
 
 ytd-two-column-browse-results-renderer {
@@ -2079,8 +2139,11 @@ ytd-multi-page-menu-renderer[menu-style="multi-page-menu-style-type-notification
 #header ytd-simple-menu-header-renderer,
 ytd-account-item-renderer #contentIcon,
 a[href="/account_notifications"] {
-    filter: invert(1);
-    box-shadow: none !important;
+    background-color: #fff0 !important;
+}
+
+#channel-container {
+    background-color: transparent !important;
 }
 
 ytd-multi-page-menu-renderer ytd-compact-link-renderer path[fill="#F00"],
