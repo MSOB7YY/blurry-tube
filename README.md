@@ -105,6 +105,13 @@ A Theme for Youtube that focuses on nice look with responsive design. original b
    
   * Account Menu Blurry
   * Chapters Panel too
-  * Fixied Playlist in Recommentaions
+  * Fixed Playlist in Recommentaions
+  
+</details>
+
+<details><summary>v2.0.0:</summary>
+   
+  * Lots of Fixes and Improvements on Video Container
+  * Checkboxes and Toasts.. more fancy
   
 </details>
