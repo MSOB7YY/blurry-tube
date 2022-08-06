@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         BlurryTube for Youtube 
-@version      2022.07.26.02
+@version      2022.08.2.02
 @namespace    userstyles.world/user/msob7yy
 @description  A Theme for Youtube that focuses on nice look with responsive design. original by suzumiyahifumi
 @author       MSOB7Y
@@ -105,8 +105,7 @@ ytd-thumbnail-overlay-toggle-button-renderer {
 /* #overlays > ytd-thumbnail-overlay-bottom-panel-renderer {backdrop-filter: blur(8px); background-color:#dadada21 !important;} */
 
 .ytp-ce-element.ytp-ce-element-show {
-    margin-top: -20px !important;
-    margin-left: -11px
+    margin-top: -10px !important;
 }
 
 
