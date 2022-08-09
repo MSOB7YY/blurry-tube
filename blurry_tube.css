@@ -906,7 +906,7 @@ yt-chip-cloud-renderer #right-arrow.yt-chip-cloud-renderer:before {
 
 #movie_player>div.ytp-chrome-bottom>div.ytp-chrome-controls {
     margin-left: -2%;
-    width: 104% !important;
+    width: 103% !important;
     backdrop-filter: blur(2px) !important;
 }
 
@@ -936,7 +936,7 @@ yt-chip-cloud-renderer #right-arrow.yt-chip-cloud-renderer:before {
     }
     ytd-watch-flexy #secondary.ytd-watch-flexy {
         padding-right: 0px;
-        padding-left: 6px;
+        padding-left: 0px;
         order: 2;
     }
     ytd-watch-flexy #primary {
@@ -1900,12 +1900,6 @@ ytd-watch-flexy[theater] #columns {
 
 #primary.ytd-watch-flexy {
     max-width: 100% !important;
-}
-
-#columns #primary {
-    padding-left: 0;
-    padding: 20px;
-    margin-left: 0 !important;
 }
 
 ytd-watch-flexy[theater] #player-theater-container.ytd-watch-flexy {
