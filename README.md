@@ -130,4 +130,5 @@ A Theme for Youtube that focuses on nice look with responsive design. original b
 <details><summary>v2.2.6:</summary>
    
   * Small Fixes to Video Player, it looks normal now lmao
+  * Fixed Scrollbar
 </details>
