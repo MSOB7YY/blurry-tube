@@ -115,3 +115,15 @@ A Theme for Youtube that focuses on nice look with responsive design. original b
   * Checkboxes and Toasts.. more fancy
   
 </details>
+
+<details><summary>v2.2.0:</summary>
+   
+  * Adjusted Text Colors and weight for better look
+  * Live Chat got the style now
+  * Fixed Home Screen Chips
+  * Commenting Box looks better
+  * "Pinned by" is aligned beside the author name
+  * Show more button looks batter
+  * some smol fixes
+  
+</details>
