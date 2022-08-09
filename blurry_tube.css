@@ -224,7 +224,7 @@ yt-live-chat-creator-support-renderer #cancel #text,
 .ytd-multi-page-menu-renderer #sections *,
 #upload-privacy-selector span {
     color: #fcd9d9 !important;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 yt-icon.ytd-pinned-comment-badge-renderer {
@@ -667,7 +667,7 @@ ytd-thumbnail-overlay-resume-playback-renderer {
 
 #overlays>ytd-thumbnail-overlay-time-status-renderer #text {
     color: #fff !important;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 #playlist #overlays>ytd-thumbnail-overlay-time-status-renderer {
