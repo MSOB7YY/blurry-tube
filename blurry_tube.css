@@ -237,8 +237,7 @@ yt-icon.ytd-pinned-comment-badge-renderer {
 }
 
 #pinned-comment-badge.ytd-comment-renderer {
-    position: absolute;
-    margin-left: 23%
+    float: right;
 }
 
 #metadata-line {
