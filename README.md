@@ -125,5 +125,9 @@ A Theme for Youtube that focuses on nice look with responsive design. original b
   * "Pinned by" is aligned beside the author name
   * Show more button looks batter
   * some smol fixes
-  
+</details>
+
+<details><summary>v2.2.6:</summary>
+   
+  * Small Fixes to Video Player, it looks normal now lmao
 </details>
