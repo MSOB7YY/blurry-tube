@@ -10,8 +10,8 @@ A Theme for Youtube that focuses on nice look with responsive design. original b
 
 # [](https://github.com/MSOB7YY/blurry-tube#installation)Installation
 
-1.  Install [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en) Extension.
-2.  - Go to Manage, Create New Style and paste the css code inside.
+1. Install [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en) Extension.
+2. - Go to Manage, Create New Style and paste the css code inside.
     - or Go to [userstyles.world/style/5827](https://userstyles.world/style/5827/blurrytube-a-youtube-blurry-theme) and simply install.
 
 # Preview
@@ -64,75 +64,86 @@ A Theme for Youtube that focuses on nice look with responsive design. original b
 </details>
 
 <details><summary>v1.5.0:</summary>
-   
-  * Blur to Dropdown Menus
-  * Home Screen Thumbnail bg-overlay Roundness and Scale
-  * Duration Box in Playlist is a bit smaller now
+
+- Blur to Dropdown Menus
+- Home Screen Thumbnail bg-overlay Roundness and Scale
+- Duration Box in Playlist is a bit smaller now
+
 </details>
 
 <details><summary>v1.6.0:</summary>
-   
-  * Applied Style to Auto Generated moments Section
-  * Small fixes and addings
+
+- Applied Style to Auto Generated moments Section
+- Small fixes and addings
+
 </details>
 
 <details><summary>v1.7.0:</summary>
-   
-  * End Cards now got a nice look
-  * Save to playlist card got the same
-  * next button hover too got it
-  * Some Scrollbar fixes
-  * video player got blurry bg now yeey
+
+- End Cards now got a nice look
+- Save to playlist card got the same
+- next button hover too got it
+- Some Scrollbar fixes
+- video player got blurry bg now yeey
   
 </details>
 
 <details><summary>v1.8.2:</summary>
-   
-  * Blur For Notification Shade
-  * Fixed (Watch-later & Add to Queue) Overlay and applied style to them
-  * End Screen duration box got a nicer look
-  * Small Fixes
+
+- Blur For Notification Shade
+- Fixed (Watch-later & Add to Queue) Overlay and applied style to them
+- End Screen duration box got a nicer look
+- Small Fixes
   
 </details>
 
 <details><summary>v1.8.8:</summary>
-   
-  * Fixed Chips Finally
+
+- Fixed Chips Finally
   
 </details>
 
 <details><summary>v1.9.0:</summary>
-   
-  * Account Menu Blurry
-  * Chapters Panel too
-  * Fixed Playlist in Recommentaions
+
+- Account Menu Blurry
+- Chapters Panel too
+- Fixed Playlist in Recommentaions
   
 </details>
 
 <details><summary>v2.0.0:</summary>
-   
-  * Lots of Fixes and Improvements on Video Container
-  * Checkboxes and Toasts.. more fancy
+
+- Lots of Fixes and Improvements on Video Container
+- Checkboxes and Toasts.. more fancy
   
 </details>
 
 <details><summary>v2.2.0:</summary>
-   
-  * Adjusted Text Colors and weight for better look
-  * Live Chat got the style now
-  * Fixed Home Screen Chips
-  * Commenting Box looks better
-  * "Pinned by" is aligned beside the author name
-  * Show more button looks batter
-  * some smol fixes
+
+- Adjusted Text Colors and weight for better look
+- Live Chat got the style now
+- Fixed Home Screen Chips
+- Commenting Box looks better
+- "Pinned by" is aligned beside the author name
+- Show more button looks batter
+- some smol fixes
+
 </details>
 
 <details><summary>v2.2.6:</summary>
-   
-  * Small Fixes to Video Player, it looks normal now lmao
-  * Fixed Scrollbar
+
+- Small Fixes to Video Player, it looks normal now lmao
+- Fixed Scrollbar
+
 </details>
 <details><summary>v2.2.8:</summary>
-   
-  * Some Improvements and fixes that i forgot
+
+- Some Improvements and fixes that i forgot
+
+</details>
+<details><summary>v3.0.0:</summary>
+
+- Kind of fixed the new ambient mode
+- Added Extra gradient dark layer because ambient mode looked terrible with custom wallpaper
+
 </details>
