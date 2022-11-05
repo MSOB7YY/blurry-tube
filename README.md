@@ -141,6 +141,11 @@ A Theme for Youtube that focuses on nice look with responsive design. original b
 - Some Improvements and fixes that i forgot
 
 </details>
+<details><summary>Important Note:</summary>
+
+- By November 2022, youtube started rolling out a new layout, which made some of the BlurryTube styles look not as good as before, The New Layout itself has some unhandled and non-responsive styles which I'll try to fix in the new versions.
+
+</details>
 <details><summary>v3.0.0:</summary>
 
 - Kind of fixed the new ambient mode
