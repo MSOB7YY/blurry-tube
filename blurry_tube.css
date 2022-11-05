@@ -12,6 +12,13 @@
      ::selection {
         background-color: #32398a !important;
     }
+    /* Fix Channel Name and Subscribe button in new layout */
+    #top-row.ytd-watch-metadata {
+        flex-direction: column;
+    }
+    #owner {
+        justify-content: space-between !important;
+    }
     /* Fix Ambient Mode */
     #primary {
         background: linear-gradient( #0e0e0e 10%, transparent 15%);
@@ -1735,6 +1742,10 @@
         }
     }
     @media screen and (min-width: 1600px) {
+        /* Fix Channel Name and Subscribe button in new layout */
+        #top-row.ytd-watch-metadata {
+            flex-direction: row;
+        }
         ytd-two-column-browse-results-renderer[page-subtype="history"] #primary {
             padding-right: 20px !important;
             flex-shrink: 3 !important;

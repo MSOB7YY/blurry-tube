@@ -147,3 +147,7 @@ A Theme for Youtube that focuses on nice look with responsive design. original b
 - Added Extra gradient dark layer because ambient mode looked terrible with custom wallpaper
 
 </details>
+<details><summary>v3.0.2:</summary>
+
+- Responsive Channel Name and Subscribe button in new layout 
+</details>
