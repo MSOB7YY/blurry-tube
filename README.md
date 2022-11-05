@@ -151,3 +151,8 @@ A Theme for Youtube that focuses on nice look with responsive design. original b
 
 - Responsive Channel Name and Subscribe button in new layout 
 </details>
+<details><summary>v3.0.4:</summary>
+
+- Blur Description
+- Subscribe Button Reshape
+</details>

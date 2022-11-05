@@ -12,6 +12,20 @@
      ::selection {
         background-color: #32398a !important;
     }
+    /*     Subscribe Button Reshape */
+    #subscribe-button>ytd-subscribe-button-renderer>yt-button-shape>button {
+        /*         background-color:transparent !important; */
+        border-radius: 11px;
+        margin-left: 1px;
+    }
+    #subscribe-button>ytd-subscribe-button-renderer {
+        backdrop-filter: blur(8px);
+        border-radius: 12px;
+    }
+    /*     Blur Description */
+    ytd-watch-metadata[modern-metapanel] #description.ytd-watch-metadata {
+        backdrop-filter: blur(8px);
+    }
     /* Fix Channel Name and Subscribe button in new layout */
     #top-row.ytd-watch-metadata {
         flex-direction: column;
