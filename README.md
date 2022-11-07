@@ -167,8 +167,8 @@ A Theme for Youtube that focuses on nice look with responsive design. original b
     - fullscreen video border radius is now 0
     - Video container background is now darker
     - Margin fixes to 
-    1. Reply button
-    2. Under the video in theatre mode
-    3. Video Title and channel
+        1. Reply button
+        2. Under the video in theatre mode
+        3. Video Title and channel
 
 </details>
