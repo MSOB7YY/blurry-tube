@@ -162,6 +162,7 @@ A Theme for Youtube that focuses on nice look with responsive design. original b
 - Subscribe Button Reshape
 </details>
 <details><summary>v3.1.2:</summary>
+
 - Rework with the video action bar hover effect
 
 - Fixes:
