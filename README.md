@@ -164,11 +164,7 @@ A Theme for Youtube that focuses on nice look with responsive design. original b
 <details><summary>v3.1.2:</summary>
 - Rework with the video action bar hover effect
 - Fixes:
-    1. fullscreen video border radius is now 0
-    1. Video container background is now darker
-    1. Margin fixes to 
-        * Reply button
-        * Under the video in theatre mode
-        * Video Title and channel
+  - fullscreen video border radius is now 0
+  - Video container background is now darker
 
 </details>
