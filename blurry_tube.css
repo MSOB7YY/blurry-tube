@@ -12,6 +12,29 @@
      ::selection {
         background-color: #32398a !important;
     }
+    /* Margin under video  */
+    #secondary {
+        padding-top: 20px !important;
+    }
+    /*     Video Player background a bit darker
+    Change 0.7 to 1 if u want completely black background
+    
+    */
+    #player-container #ytd-player {
+        background-color: rgba(0, 0, 0, 0.7) !important;
+    }
+    /*     Comments Reply Margin */
+    #less-replies {
+        margin-left: 10px !important;
+    }
+    /*     Some Margins to the Video Title and channel */
+    .ytd-watch-metadata #title {
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    #owner>ytd-video-owner-renderer {
+        margin-left: 20px;
+    }
     /*     Subscribe Button Reshape */
     #subscribe-button>ytd-subscribe-button-renderer>yt-button-shape>button {
         /*         background-color:transparent !important; */
@@ -35,7 +58,7 @@
     }
     /* Fix Ambient Mode */
     #primary {
-        background: linear-gradient( #0e0e0e 10%, transparent 15%);
+        background: linear-gradient( #0e0e0e 1%, transparent 10%);
     }
     #secondary {
         z-index: 40 !important;
@@ -93,7 +116,24 @@
         transition: 0.2s
     }
     #menu>ytd-menu-renderer:hover {
-        transform: scale(0.95)
+        transform: scale(1)
+    }
+    #segmented-like-button,
+    #segmented-dislike-button,
+    #top-level-buttons-computed>ytd-button-renderer,
+    #flexible-item-buttons>ytd-button-renderer:nth-child(2),
+    #flexible-item-buttons>ytd-button-renderer:nth-child(3),
+    #button-shape>button {
+        transform: scale(1.03);
+        transition-duration: 0.1s;
+    }
+    #segmented-like-button:hover,
+    #segmented-dislike-button:hover,
+    #top-level-buttons-computed>ytd-button-renderer:hover,
+    #flexible-item-buttons>ytd-button-renderer:nth-child(2):hover,
+    #flexible-item-buttons>ytd-button-renderer:nth-child(3):hover,
+    #button-shape>button:hover {
+        transform: scale(1)
     }
     ytd-video-primary-info-renderer #menu>ytd-menu-renderer:hover {
         transform: scale(0.99)
@@ -404,7 +444,6 @@
         backdrop-filter: blur(15px);
     }
     body,
-    ytd-app,
     ytd-popup-container,
     tp-yt-paper-dialog {
         box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
@@ -1697,7 +1736,7 @@
     }
     ytd-watch-flexy[theater] #primary {
         position: relative;
-        top: 20px;
+        top: 0px;
     }
     ytd-app[is-watch-page] ytd-watch-flexy:not([theater]) #secondary-inner,
     ytd-app[is-watch-page] ytd-watch-flexy:not([theater]) #primary {
